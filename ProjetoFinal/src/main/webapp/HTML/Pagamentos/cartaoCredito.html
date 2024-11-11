@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../CSS/TelasDePagamento/cartaoCredito.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../../Imagens/ImagensLandingPage/LogoOlimpo2.1.png" />
+
+</head>
+<body>
+<img src="../../Imagens/ImagensPagamento/Casas.png" alt="" id="desenhoCasa">
+<div id="container">
+    <div class="InformacoesCartao">
+        <h1>Preencha as informações para realizar a compra:</h1>
+        <form class="FormularioCartao">
+            <input type="number" placeholder= "Número do cartão" minlength="13" maxlength="16" min="1000000000000" max="999999999999999"
+                   required  id="numero">
+            <input type="text" placeholder="Nome do Titular no cartão" required id="titular">
+            <div class="informacoes2">
+                <input type="number"  placeholder="MM" required id="mes" >
+                <input type="number"  placeholder="AA" required id="ano">
+                <input type="text" id="cvv" name="cvv"   placeholder="CVV " required>
+            </div>
+            <input type="text" placeholder="Seu nome completo" required id="nome">
+            <input type="email" placeholder="Seu email para contato" required id="email">
+            <input type="number" minlength="14" maxlength="16" placeholder="CPF"
+                   required id="cpf">
+            <input type="tel" placeholder="Celular" required id="celular">
+            <a href="../../JSP/PerfilUsuario.jsp">
+                <button class="btn">Enviar</button>
+            </a>
+        </form>
+        <img src="../../Imagens/ImagensPagamento/Predios.png" alt="" id="desenhoPredio">
+    </div>
+</div>
+<script>
+    const phoneInput = document.getElementById('tel');
+
+    phoneInput.addEventListener('input', function (event) {
+        let input = event.target.value;
+
+        // Remove caracteres não numéricos
+        input = input.replace(/\D/g, '');
+
+        // Aplica a formatação (XX) XXXXX-XXXX
+        input = input.replace(/^(\d{2})(\d)/, '($1) $2');
+        input = input.replace(/(\d{5})(\d)/, '$1-$2');
+
+        // Atualiza o valor do input com o formato
+        event.target.value = input;
+    });
+    const cpfInput = document.getElementById('cpf');
+
+    cpfInput.addEventListener('input', function (event) {
+        let input = event.target.value;
+
+        // Remove caracteres não numéricos
+        input = input.replace(/\D/g, '');
+
+        // Aplica a formatação CPF: XXX.XXX.XXX-XX
+        input = input.replace(/(\d{3})(\d)/, '$1.$2');
+        input = input.replace(/(\d{3})(\d)/, '$1.$2');
+        input = input.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+
+        // Atualiza o valor do input com o formato
+        event.target.value = input;
+    });
+</script>
+</body>
+</html>

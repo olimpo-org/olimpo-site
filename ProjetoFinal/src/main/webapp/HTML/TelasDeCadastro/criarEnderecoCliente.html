@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Endereço</title>
+    <link rel="stylesheet" href="../../CSS/Cadastro/cadastroEndereco.css">
+    <link rel="icon" href="../../Imagens/ImagemEndereco/LogoOlimpo2.1.png" />
+</head>
+<body>
+
+<!-- Logo no canto superior esquerdo -->
+<header>
+    <div class="image">
+        <img src="../../Imagens/ImagemEndereco/LogoBorda.png" alt="Logo">
+    </div>
+</header>
+<section class="corpo">
+
+    <img src="../../Imagens/Predios.png" class="img-lateral" alt="Prédio">
+    <!-- Container do formulário -->
+    <div class="endereco">
+        <div class="texto">
+            <h1>Você está quase lá!</h1>
+            <p>Insira as informações sobre o endereço do cliente</p>
+        </div>
+
+        <!-- Inputs do formulário -->
+        <form action="/ServletCriarEnderecoCliente" method="post">
+            <div class="inputs">
+                <input type="text" name="estado" placeholder="Estado">
+                <input type="text" name="municipio" placeholder="Município">
+                <input type="text" name="bairro" placeholder="Bairro">
+            </div>
+
+            <!-- Botões de navegação -->
+            <div class="enderecoBotao">
+                <button type="submit" class="pronto">PROSSEGUIR</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Imagens do prédio e da casa -->
+
+    <img src="../../Imagens/Casas.png" class="img-lateral" alt="Casa">
+
+</section>
+</body>
+</html>

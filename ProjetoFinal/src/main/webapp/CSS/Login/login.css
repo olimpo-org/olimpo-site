@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Archivo", sans-serif;
+    color: #FFFFFF;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #5597FA;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+}
+
+#logolimpo{
+    background-image: url(../../../Imagens/ImagensLandingPage/LogoOlimpo.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s ease;
+    margin-left: 15px;
+}
+#logolimpo:hover{
+    background-image: url(../../../Imagens/ImagensLandingPage/LogoOlimpo2.1.png);
+    transform: scale(1.2);
+    transition: 0.4s ease-in-out;
+}
+
+/* Container que envolve botão, formulário, parágrafos e título */
+
+
+.container{
+    background-color: #5597FA;
+    display: flex;
+    width: 700px;
+    height: 450px;
+    border-radius: 30px;
+    flex-direction: column;
+    gap: 25px;
+    padding: 80px 60px 60px 60px; /* Ajustei o padding para ficar melhor em telas menores */
+    box-sizing: border-box;
+    a{
+        font-size: 20px;
+    }
+}
+
+form {
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 90%;
+    max-width: 250px; /* Máximo de largura para inputs */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    opacity: 100%;
+    outline: none;
+}
+
+input::placeholder {
+    color: #CCCC;
+}
+
+/* Botao */
+button {
+    margin-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 40px;
+    background-color: #5597FA;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer; /* Melhorar a usabilidade */
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #FFFFFF;
+    color: #5597FA;
+}
+
+.imgCasa{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.imgPredio{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+/* Responsividade */
+
+
+@media ((min-width:300px ) and (max-width: 600px) ){
+
+    
+    /* Container que envolve botão, formulário, parágrafos e título */
+    
+    
+    .container{
+        width: 90vw;
+        height: 450px;
+        border-radius: 10px;
+    }
+    
+    form {
+        color: black;
+    }
+    
+    input {
+        width: 80%;
+    }
+    
+    input::placeholder {
+        color: #CCCC;
+    }
+
+    .imgCasa, .imgPredio{
+        display: none;
+    }
+    
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+@media ((min-width: 601px ) and (max-width: 900px) ){
+
+    
+    /* Container que envolve botão, formulário, parágrafos e título */
+    
+    
+    .container{
+        width: 70vw;
+        height: 450px;
+        border-radius: 10px;
+    }
+    
+    form {
+        color: black;
+    }
+    
+    input {
+        width: 80%;
+    }
+    
+    input::placeholder {
+        color: #CCCC;
+    }
+
+    .imgCasa, .imgPredio{
+        width: 40vw;
+    }
+    
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+

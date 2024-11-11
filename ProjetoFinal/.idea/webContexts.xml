@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/JSP/CRUD/Alterar/AlterarPlano.jsp" value="file://$PROJECT_DIR$/src/main/webapp/JSP/CRUD/Alterar" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/JSP/Index.jsp" value="file://$PROJECT_DIR$/src/main/webapp/JSP" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/JSP/MeusAnuncios.jsp" value="file://$PROJECT_DIR$/src/main/webapp/JSP" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/JSP/TelasDePagamento/TelaContinuarSemideus.jsp" value="file://$PROJECT_DIR$/src/main/webapp/JSP/TelasDePagamento" />
+      </map>
+    </option>
+  </component>
+</project>

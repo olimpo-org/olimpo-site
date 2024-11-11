@@ -1,0 +1,171 @@
+@media (min-width: 250px) {
+
+    /* seção 2 */
+
+    .dois #anuncio {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    form {
+        flex-flow: column-reverse;
+        transition: 0.3s;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .visualizar {
+        min-width: 170px;
+        min-height: 170px;
+        transition: 0.3s;
+    }
+
+    input[type="text"], input[type="number"], textarea {
+        transition: 0.3s;
+    }
+
+    #prompt {
+        font-size: 13px;
+        transition: 0.3s;
+    }
+
+    #tamanho {
+        transition: 0.3s;
+    }
+
+    button {
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 300px) {
+    /* seção 2 */
+
+    #prompt {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 350px) {
+
+    /* seção 2 */
+
+    .container {
+        padding: 40px;
+    }
+
+    .visualizar {
+        min-width: 220px;
+        min-height: 220px;
+    }
+
+    input[type="text"], input[type="number"], textarea {
+        width: 80%;
+        transition: 0.3s;
+    }
+
+    #prompt {
+        font-size: 15px;
+    }
+
+    #tamanho {
+        font-size: 14px;
+    }
+
+    #addinfo {
+        position: relative;
+        font-size: 14px;
+        top: 5px;
+    }
+}
+
+@media (min-width: 450px) {
+
+    /* seção 2 */
+
+    .container {
+        padding: 50px;
+    }
+
+    .visualizar {
+        min-width: 280px;
+        min-height: 280px;
+    }
+
+    #addinfo {
+        position: relative;
+        font-size: 18px;
+        top: -5px;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 650px) {
+
+    /* seção 2 */
+
+    .container {
+        padding: 70px;
+    }
+
+    .visualizar {
+        min-width: 300px;
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    /* seção 2 */
+
+    form {
+        flex-flow: row;
+        transition: 0.3s;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    /* seção 2 */
+
+    .dois #anuncio {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 0.3s;
+    }
+}
+
+@media (max-width: 600px){
+    nav {
+        justify-content: center;
+        h3 {
+            font-size: 16px;
+            width: 50px;
+        }
+
+        #logolimpo {
+            margin-left: 0px;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    nav {
+        h3 {
+            font-size: 14px;
+        }
+    }
+}

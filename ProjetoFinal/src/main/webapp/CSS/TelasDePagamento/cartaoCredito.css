@@ -1,0 +1,486 @@
+*{
+    font-family: "Archivo", sans-serif;
+}
+
+html {
+    /* overflow-y: hidden; */
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.FormularioCartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        margin-bottom: 20px;
+        height: 1%;
+        width: 600px;
+        padding-left: 35px;
+        border-radius: 10px;
+        border: solid  #5597FA 2px;
+    }
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Div para configuração dos inputs de mês, ano e CVV que devem estar e uma mesma linha até não caberem mais */
+
+.informacoes2{
+    flex-wrap: wrap;
+    input{
+        width: 40px;
+    }
+}
+
+/* Botão */
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:  #5597FA;
+    border: transparent 2px solid;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #5597FA;
+    transition: ease-in 0.3s;
+    border: #5597FA 2px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Imagens dos inputs */
+
+#numero{
+    background-image: url(../../Imagens/imagensCartaoDeCredito/cartaoCredito.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+}
+
+#titular{
+    background-image: url(../../imagens/imagensCartaoDeCredito/titular.png
+    );
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+}
+
+#nome{
+    background-image: url(../../imagens/imagensCartaoDeCredito/titular.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+}
+
+#email{
+    background-image: url(../../imagens/imagensCartaoDeCredito/email.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+}
+
+#cpf{
+    background-image: url(../../imagens/imagensCartaoDeCredito/cnpj.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+}
+
+#celular{
+    background-image: url(../../imagens/imagensCartaoDeCredito/celular.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+}
+
+#mes{
+    background-image: url(../../imagens/imagensCartaoDeCredito/calendario.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+    margin-right: 20px;
+}
+
+#ano{
+    background-image: url(../../imagens/imagensCartaoDeCredito/calendario2.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+}
+
+#cvv{
+    background-image: url(../../imagens/imagensCartaoDeCredito/cvv.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+    margin-left: 35px;
+    width: 350px;
+}
+
+/* div que incorpora o formulário e o botão */
+
+.InformacoesCartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px #5597FA;
+    width: 800px;
+    height: 950px;
+    margin-top: 30px;
+    h1{
+        font-size: 40px;
+        color:  #5597FA;
+        margin-bottom: 50px;
+    }
+}
+
+#desenhoCasa{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 25vw;
+}
+
+#desenhoPredio{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 25vw;
+}
+
+/* Remove as setas em Chrome e Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove as setas em Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+/* Configs na scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5597FA;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #345e9c;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #122035;
+}
+
+/* Responsividade */
+
+@media(min-width: 300px) and (max-width: 600px){
+
+    .FormularioCartao{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        input{
+            height: 30px;
+            width: 55vw;
+            border-radius: 10px;
+            border: solid  #5597FA 2px;
+        }
+    }
+
+    /* Imagens dos inputs */
+
+    #mes, #ano{
+        width: 20vw;
+
+    }
+
+    #cvv{
+        margin-left:0px;
+    }
+
+
+    .InformacoesCartao{
+        width: 90vw;
+        height: 700px;
+        margin-top: 70px;
+        h1{
+            font-size: 6vw;
+            color:  #5597FA;
+            margin-bottom: 50px;
+            width: 90%;
+        }
+    }
+
+    #desenhoCasa{
+        display: none;
+    }
+
+    #desenhoPredio{
+        display: none;
+    }
+
+    #cvv{
+        width: 60%;
+    }
+
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+@media(min-width: 601px) and (max-width: 700px){
+
+    .FormularioCartao{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        input{
+            height: 30px;
+            width: 55vw;
+            border-radius: 10px;
+            border: solid  #5597FA 2px;
+        }
+    }
+
+    /* Imagens dos inputs */
+
+    #mes, #ano{
+        width: 50px;
+
+    }
+
+    #cvv{
+        margin-left:20px;
+        width: 20vw;
+    }
+
+
+    .InformacoesCartao{
+        width: 90vw;
+        height: 700px;
+        margin-top: 70px;
+        h1{
+            font-size: 5vw;
+            width: 90%;
+            color:  #5597FA;
+            margin-bottom: 50px;
+        }
+    }
+
+    #desenhoCasa{
+        display: none;
+    }
+
+    #desenhoPredio{
+        display: none;
+    }
+
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+@media(min-width: 701px) and (max-width: 800px){
+
+    .FormularioCartao{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        input{
+            height: 30px;
+            width: 55vw;
+            border-radius: 10px;
+            border: solid  #5597FA 2px;
+        }
+    }
+
+    /* Imagens dos inputs */
+
+    #mes, #ano{
+        width: 12%;
+
+    }
+
+    #cvv{
+        margin-left:20px;
+        width: 20vw;
+    }
+
+
+    .InformacoesCartao{
+        width: 80vw;
+        height: 700px;
+        margin-top: 70px;
+        h1{
+            font-size: 5vw;
+            width: 90%;
+            color:  #5597FA;
+            margin-bottom: 50px;
+        }
+    }
+
+    #desenhoCasa, #desenhoPredio{
+        width: 30% ;
+    }
+
+
+
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+@media(min-width: 801px) and (max-width: 1000px){
+
+    .FormularioCartao{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        input{
+            height: 40px;
+            width: 45vw;
+            border-radius: 10px;
+            border: solid  #5597FA 2px;
+        }
+    }
+
+    /* Imagens dos inputs */
+
+    #mes, #ano{
+        width: 7%;
+
+    }
+
+    #cvv{
+        margin-left:20px;
+        width: 20vw;
+    }
+
+
+    .InformacoesCartao{
+        width: 70vw;
+        height: 740px;
+        margin-top: 70px;
+        h1{
+            font-size: 4vw;
+            width: 90%;
+            color:  #5597FA;
+            margin-bottom: 50px;
+        }
+    }
+
+    #desenhoCasa, #desenhoPredio{
+        width: 30% ;
+    }
+
+
+
+}
+
+/* -------------------------------------------------------------------------------- */
+
+@media (min-width:1001px) and (max-width: 2000px){
+    /* 1787 */
+    .FormularioCartao{
+        display: flex;
+        flex-direction: column;
+        input{
+            margin-bottom: 20px;
+            height: 30px;
+            width: 600px;
+            padding-left: 35px;
+            border-radius: 10px;
+            border: solid  #5597FA 2px;
+        }
+    }
+
+    .informacoes2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        input{
+            width: 40px;
+        }
+    }
+
+    .InformacoesCartao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: solid 1px  #5597FA;
+        width: 870px;
+        height: 620px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        h1{
+            font-size: 40px;
+            width: 750px;
+            color:  #5597FA;
+            margin-bottom: 50px;
+
+        }
+    }
+
+    #desenhoCasa{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 25vw;
+    }
+
+    #desenhoPredio{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 25vw;
+    }
+
+
+}

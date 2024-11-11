@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#logolimpo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background-image: url(../../Imagens/ImagensAreaRestrita/LogoOlimpo.png);
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    transition: 0.3s ease;
+}
+
+#logolimpo:hover {
+    background-image: url(../../Imagens/ImagensAreaRestrita/LogoOlimpo2.1.png);
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.campos {
+    margin: auto;
+    border-radius: 25px 0 0 25px;
+    background-color: rgb(85, 151, 250);
+    width: 70vw;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.campos h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    left: 0px;
+}
+
+.campos input {
+    border: none;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 5px;
+}
+a{
+    color: white;
+}
+
+.campos p {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.texto {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    height: 100vh;
+}
+
+.texto h1 {
+    text-align: center;
+    font-size: 3.5em;
+    color: rgb(57, 136, 255);
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 40vw;
+    margin-top: 20px;
+    select {
+        width: 80%;
+        height: 45px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    select:hover {
+        cursor: pointer;
+    }
+}
+
+.botao {
+    width: 15vw;
+    height: 6vh;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: rgb(85, 151, 250);
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+.pronto {
+    display: flex;
+    width: 25%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pronto:hover .botao {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(85, 151, 250);
+    transition: ease-in 0.3s;
+}
+
+.pronto:hover .botao a {
+    color: rgb(85, 151, 250);
+}
+
+ul {
+    color: #ffffff;
+}
+
+.formato-senha {
+    ul {
+        list-style-type: circle;
+    }
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Responsividade */
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .campos {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .campos h1 {
+        font-size: 200em;
+        left: 0px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .campos p{
+        left: 0px;
+        font-size: 4vw;
+    }
+
+    .texto {
+        display: none;
+    }
+
+    .inputs{
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inputs input {
+        width: 40%;
+        margin: 5px 0;
+        height: 5vh;
+    }
+    .botao {
+        width: 70%;
+        height: 4vh;
+        font-size: 4vw;
+    }
+
+    ul {
+        position: relative;
+        font-size: 3vw;
+    }
+    #logolimpo{
+        display: none;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+@media (min-width: 401px) and (max-width: 700px) {
+    .campos {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .campos h1 {
+        left: 0px;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 2em;
+    }
+
+    .campos p{
+        left: 0px;
+    }
+
+    .texto {
+        display: none;
+    }
+
+    .inputs{
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        select {
+            width: 40%;
+        }
+        #interesse {
+            font-size: 12px;
+        }
+    }
+
+    .inputs input {
+        width: 40%;
+        margin: 5px 0;
+    }
+
+    .botao {
+        width: 70%;
+        height: 4vh;
+        font-size: 3vw;
+    }
+
+    ul {
+        position: relative;
+        font-size: 3vw;
+    }
+    #logolimpo{
+        display: none;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+@media (min-width: 701px) and (max-width: 1000px) {
+    body {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .campos {
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .campos h1 {
+        font-size: 2em;
+        left: 0px;
+    }
+
+    .campos input {
+        width: 90%;
+        height: 40px;
+        font-size: 1em;
+    }
+
+    .campos p {
+        font-size: 1.5em;
+        left: -100px;
+    }
+
+    .texto {
+        margin-right: 60px;
+        width: 20vw;
+        height: 100vh;
+        margin-left: 30px;
+    }
+
+    .texto h1 {
+        font-size: 4vw;
+    }
+
+    .inputs {
+        width: 40vw;
+    }
+
+
+    .botao {
+        width: 15vw;
+        height: 4vh;
+        font-size: 1.5vw;
+    }
+
+    .botao a {
+        color: white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,161 @@
+@media (min-width: 300px) {
+   
+    #ftnm {
+        width: 95%;
+        height: 10vh;
+        div {
+            margin-left: -45px;
+        }
+        h2 {
+            font-size: 15px;
+            width: 100px;
+        }
+        h4 {
+            font-size: 11px;
+        }
+        img {
+            width: 50px;
+        }
+    }
+
+    #infos {
+        width: 95%;
+        h2 {
+            font-size: 16px;
+        }
+        span {
+            gap: 0px;
+            width: 250px;
+            height: 310px;
+            font-size: 12px;
+            flex-flow: column;
+        }
+    }
+}
+
+@media (min-width: 350px) {
+    
+    #ftnm {
+        div {
+            margin-left: -45px;
+        }
+        h2 {
+            font-size: 18px;
+            width: 100px;
+        }
+        h4 {
+            font-size: 13px;
+            width: 150px;
+        }
+        img {
+            width: 60px;
+        }
+    }
+
+    #infos {
+        h2 {
+            font-size: 20px;
+        }
+        span {
+            gap: 0px;
+            width: 250px;
+            height: 360px;
+            font-size: 16px;
+            flex-flow: column;
+        }
+    }
+}
+
+@media (min-width: 400px) {
+    
+    #ftnm {
+        h2 {
+            font-size: 18px;
+            width: 100px;
+        }
+        h4 {
+            font-size: 13px;
+            width: 150px;
+        }
+        img {
+            width: 60px;
+        }
+    }
+}
+
+@media (min-width: 500px) {
+
+    #ftnm {
+        h2 {
+            font-size: 20px;
+            width: 150px;
+        }
+        h4 {
+            font-size: 14px;
+            width: 150px;
+        }
+        img {
+            width: 65px;
+        }
+    }
+}
+
+@media (min-width: 650px) {
+    
+    #ftnm {
+        div {
+            margin-left: 0px;
+        }
+    }
+
+    #infos {
+        span {
+            width: 450px;
+            gap: 200px;
+            flex-flow: row;
+            height: 210px;
+        }
+    } 
+}
+
+@media (min-width: 850px) {
+
+    #ftnm {
+        div {
+            margin-left: 0px;
+        }
+        h2 {
+            font-size: 23px;
+            width: 500px;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+
+    span {
+        h4 {
+            font-size: 16px;
+        }
+        h5 {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    nav {
+        h3 {
+            font-size: 16px;
+            width: 50px;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    nav {
+        h3 {
+            font-size: 14px;
+        }
+    }
+}

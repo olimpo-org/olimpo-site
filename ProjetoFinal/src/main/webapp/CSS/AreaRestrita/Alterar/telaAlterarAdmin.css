@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NavBar com nome da tabela e logo */
+.Navbar {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background-color: #5597FA;
+}
+
+/* Estilos internos para .Navbar */
+.Navbar img {
+    width: 100px;
+}
+
+.Navbar h1 {
+    color: white;
+    margin-left: 610px;
+    font-size: 40px;
+}
+
+/* Quadrado central com inputs e formulários para cada atributo das tabelas */
+.atributos {
+    width: 800px;
+    height: auto; /* Permitir altura variável */
+    margin-left: 400px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 2px #5597FA;
+}
+
+/* Estilos internos para .atributos */
+.atributos input {
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+.atributos label {
+    color: #5597FA;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Margem específica para o atributo Nome */
+.atributoNome {
+    margin-left: 20px;
+}
+
+/* Título: "Atributos da tabela ----" */
+.Titulo1 {
+    text-align: center;
+    color: #5597FA;
+}
+
+/* Botões de alteração dos atributos */
+.btnAlterar {
+    background-color: #5597FA;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+/* Imagens decorativas nos cantos extremos das telas */
+.imgPredios {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.imgCasas {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Mensagem de resultado */
+.result {
+    width: 800px; /* Largura alinhada com .atributos */
+    margin: 20px auto 0; /* Margem superior para criar um espaço entre .atributos e .result */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result p {
+    font-size: 18px;
+    color: #5597FA; /* Cor do texto */
+    font-weight: bold;
+    text-align: center;
+}

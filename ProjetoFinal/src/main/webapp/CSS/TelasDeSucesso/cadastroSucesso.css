@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Logo do Olimpo */
+.simb_Olimpo{
+    height: 90px;
+    width: 100px;
+}
+
+/* Section responsável por incorporar a imagem e texto d e cadastro concluído */
+.cad_conluido{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 90vh;
+}
+
+/* Botão */
+
+button{
+    background-color: rgb(85, 151, 250);
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgb(164, 163, 163);
+    border: none;
+    width: 400px;
+    height: 60px;
+    margin-top: 100px;
+    font-size: 20px;
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+    color: #EEEEEE;
+}
+
+.cad_conluido button:hover{
+    background-color: #ffffff;
+    color: rgb(85, 151, 250);
+    border: solid  rgb(85, 151, 250) 1px;
+    box-shadow: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: #5597FA;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+/* Imagem de check */
+.confere{
+    width: 170px;
+    height: 180px;
+}
+
+/* Enfeites em ambos os cantos da tela */
+
+.decDireita, .decEsquerda{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+.decDireita{
+    bottom: 0px;
+}
+
+.decEsquerda{
+    top: 0px;
+    right: 0px;
+}
+
+/* Responsividade */
+
+@media ((min-width: 300px) and (max-width:600px)){
+    
+.decDireita, .decEsquerda{
+    display: none;
+}
+
+
+h1{
+    font-size: 30px;
+}
+
+button{
+    width: 60vw;
+}
+}
+
+@media ((min-width: 601px) and (max-width:700px)){
+    
+    .decDireita, .decEsquerda{
+      width: 300px;
+      height: 200px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    
+    button{
+        width: 60vw;
+    }
+    }

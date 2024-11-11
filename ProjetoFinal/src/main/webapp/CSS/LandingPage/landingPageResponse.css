@@ -1,0 +1,1612 @@
+@media (max-width: 1400px){
+    /* Primeira seção */
+    .bluesect p{
+        font-size: 40px;
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 1300px){
+    /* Primeira seção */
+    .bluesect p{
+        width: 500px;
+    }
+
+    /* Rodapé */
+    #redes container{
+        margin-left: 150px;
+    }
+
+    #redes container2{
+        margin-left: -90px;
+    }
+}
+
+@media (max-width: 1200px){
+    /* Navbar */
+    .navbar {
+        font-size: 18px;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        margin-right: -20px;
+        margin-top: 0;
+    }
+
+    .navbar button{
+        font-size: 18px;
+        width: 140px;
+        height: 40px;
+        margin-right: 45px;
+        margin-left: -25px;
+    }
+
+    #logolimpo {
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+    .downdrop hr{
+        width: 140px;
+        margin-left: -5px;
+        transform: translateX(-35.5px);
+    }
+
+    .centerdrop {
+        margin-left: -10px;
+    }
+
+    /* Primeira seção */
+    .bluesect p{
+        font-size: 35px;
+        width: 450px;
+    }
+
+    /* Terceira seção */
+    #missao {
+        margin-left: -90px;
+    }
+
+    /* Rodapé */
+    #redes container{
+        margin-left: 180px;
+    }
+
+    #redes container2{
+        margin-left: -120px;
+    }
+}
+
+@media (max-width: 1100px){
+    /* Navbar */
+    .navbar {
+        font-size: 18px;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        margin-right: -20px;
+        margin-top: 0;
+    }
+
+    .navbar button{
+        font-size: 18px;
+        width: 140px;
+        height: 40px;
+        margin-right: 45px;
+        margin-left: -25px;
+    }
+
+    #logolimpo {
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+    .downdrop hr{
+        width: 140px;
+        margin-left: -5px;
+        transform: translateX(-35.5px);
+    }
+
+    .centerdrop {
+        margin-left: -10px;
+    }
+
+    /* Primeira seção */
+    .bluesect p{
+        font-size: 30px;
+        width: 400px;
+    }
+    
+    /* Quinta seção */
+    #servcards {
+        gap: 50px;
+    }
+    
+    #servcards div{
+        width: 304px;
+        height: 299px;
+        flex-flow: column;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    #servcards h1{
+        font-size: 24px;
+    }
+    
+    #servcards p{
+        font-size: 14px;
+        width: 300px;
+        height: 95px;
+    }
+    
+    #servcards div:hover{
+        width: 324px;
+        height: 303px;
+    }
+
+    /* Rodapé */
+    #redes container{
+        margin-left: 210px;
+    }
+
+    #redes container2{
+        margin-left: -150px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    /* Navbar */
+    .navbar {
+        font-size: 18px;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        margin-right: -20px;
+        margin-top: 0;
+    }
+
+    .navbar button{
+        font-size: 14px;
+        width: 120px;
+        height: 25px;
+        margin-right: 45px;
+        margin-left: -25px;
+    }
+
+    #logolimpo {
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+    .downdrop hr{
+        width: 140px;
+        margin-left: -5px;
+        transform: translateX(-35.5px);
+    }
+
+    .centerdrop {
+        margin-left: -10px;
+    }
+
+    /* Primeira seção */
+    #maocelular{
+        opacity: 0;
+        width: 0px;
+    }
+
+    /* Terceira seção */
+    #missao {
+        width: 1000px;
+    }
+
+    #missao h1{
+        font-size: 27px;
+    }
+
+    #missao p{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    #missao img{
+        width: 280px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    /* Quarta seção */
+    #quatro {
+        height: 629.5px;
+        font-family: Inter;
+        margin-top: 300px;
+    }
+    
+    #fotogrupo {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: -50px;
+    }
+    
+    #fotogrupo p{
+        width: 400px;
+    }
+    
+    #fotogrupo img {
+        width: 400px;
+        height: 250px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    #fotogrupo2 {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: 100px;
+    }
+
+    #fotogrupo2 p{
+        width: 400px;
+    }
+    
+    #fotogrupo2 img {
+        width: 400px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    /* Quinta seção */
+    #cinco {
+        height: 652px;
+        font-family: Inter;
+        font-size: 30px;
+        margin-top: 1300px;
+    }
+    
+    #servicos {
+        margin-bottom: 73px;
+    }
+    
+    #servcards {
+        flex-flow: column;
+        gap: 120px;
+    }
+    
+    #servcards div{
+        width: 394px;
+        height: 323px;
+        flex-flow: column;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    
+    #servcards h1{
+        font-size: 24px;
+    }
+    
+    #servcards p{
+        font-size: 14px;
+        width: 300px;
+        height: 95px;
+        text-align: center;
+    }
+    
+    #servcards div:hover{
+        width: 454px;
+        height: 373px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+
+    /* Sexta seção */
+    #ods{
+        margin-top: 500px;
+        img{
+            width: 45%;
+        }
+        p{
+            width: 80%;
+        }
+    }
+
+    /* Rodapé */
+    #rodape {
+        height: 170px;
+        font-size: 17px;
+        margin-top: 500px;
+        height: 100%;
+    }
+    
+    #rodape h1{
+        margin-left: 33px;
+        padding-top: 20px;
+        margin-bottom: -20px;
+        font-size: 25px;
+    }
+    
+    #redes {
+        grid-template-columns: repeat(1, 1fr);
+        font-family: Inter;
+        margin-left: -355px;
+        margin-top: 100px;
+    }
+    
+    #redes container {
+        margin-left: 270px;
+        gap: 130px;
+        margin-right: 270px;
+    }
+    
+    #redes container2 {
+        margin-left: -10px;
+        gap: 140px;
+    }
+    
+    #redes a {
+        flex-flow: column;
+        margin-right: 20px;
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    
+    #redes i{
+        margin-right: 5px;
+    }
+
+    #numail {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        margin-left: -50px;
+    }
+
+    #numail #email {
+        margin-left: -35px;
+        margin-top: -20px;
+    }
+    
+    .cnpjright {
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 13px;
+        margin-left: 20px;
+        width: 95%;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 900px){
+    /* Navbar */
+    .navbar {
+        font-size: 18px;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        margin-right: -20px;
+        margin-top: 0;
+    }
+
+    .navbar button{
+        font-size: 15px;
+        width: 100px;
+        height: 25px;
+        margin-right: 50px;
+    }
+
+    #logolimpo {
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    .botoes{
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .downdrop hr{
+        width: 140px;
+        margin-left: -5px;
+        transform: translateX(-35.5px);
+    }
+
+    .centerdrop {
+        margin-left: -10px;
+    }
+
+    /* Terceira seção */
+    #missao {
+        width: 900px;
+    }
+
+    #missao h1{
+        font-size: 27px;
+    }
+
+    #missao p{
+        font-size: 14px;
+        width: 200px;
+    }
+
+    #missao img{
+        width: 280px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    /* Quarta seção */
+    #quatro {
+        height: 629.5px;
+        font-family: Inter;
+        margin-top: 300px;
+    }
+
+    #quatro p{
+        display: inline-block;
+    }
+    
+    #fotogrupo {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: -50px;
+    }
+    
+    #fotogrupo p{
+        width: 400px;
+    }
+    
+    #fotogrupo img {
+        width: 400px;
+        height: 250px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    /* Quinta seção */
+    #cinco {
+        height: 652px;
+        font-family: Inter;
+        font-size: 30px;
+    }
+    
+    #servicos {
+        margin-bottom: 73px;
+    }
+    
+    #servcards {
+        flex-flow: column;
+        gap: 120px;
+    }
+    
+    #servcards div{
+        width: 394px;
+        height: 323px;
+        flex-flow: column;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    
+    #servcards h1{
+        font-size: 24px;
+    }
+    
+    #servcards p{
+        font-size: 14px;
+        width: 300px;
+        height: 95px;
+        text-align: center;
+    }
+    
+    #servcards div:hover{
+        width: 454px;
+        height: 373px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+        box-shadow: 0px 0px 40px rgb(0, 0, 0, 0);
+    }
+
+    /* Sexta seção */
+    #ods{
+        margin-top: 500px;
+        img{
+            width: 45%;
+        }
+        p{
+            width: 80%;
+        }
+    }
+
+    /* Rodapé */
+    #rodape {
+        height: 170px;
+        font-family: Archivo;
+        font-size: 17px;
+        margin-top: 500px;
+        height: 100%;
+    }
+    
+    #rodape h1{
+        margin-left: 33px;
+        padding-top: 20px;
+        margin-bottom: -20px;
+        font-size: 25px;
+    }
+    
+    #redes {
+        grid-template-columns: repeat(1, 1fr);
+        font-family: Inter;
+        margin-left: -355px;
+        margin-top: 100px;
+    }
+    
+    #redes container {
+        margin-left: 270px;
+        gap: 130px;
+    }
+    
+    #redes container2 {
+        margin-left: -10px;
+        gap: 140px;
+    }
+    
+    #redes a {
+        flex-flow: column;
+        margin-right: 20px;
+        font-size: 20px;
+        margin-top: -20px;
+        text-decoration: none;
+    }
+    
+    #redes i{
+        margin-right: 5px;
+    }
+
+    #numail {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        margin-left: -50px;
+    }
+
+    #numail #email {
+        margin-left: -35px;
+        margin-top: -20px;
+    }
+    
+    .cnpjright {
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 13px;
+        margin-left: 20px;
+        width: 95%;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 800px){
+    /* Navbar */
+    .navbar {
+        font-size: 16px;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        margin-right: -20px;
+        margin-top: 5px;
+    }
+
+    .navbar button{
+        font-size: 14px;
+        width: 100px;
+        height: 25px;
+        margin-right: 50px;
+    }
+
+    #logolimpo {
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    .botoes{
+        gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .downdrop hr{
+        width: 120px;
+        margin-left: 5px;
+        transform: translateX(-35.5px);
+    }
+
+    .centerdrop {
+        margin-left: -10px;
+    }
+
+    .bluesect {
+        margin-left: -20px;
+    }
+
+    /* Terceira seção */
+    #curiosidades {
+        height: 800px;
+        margin-top: 100px;
+    }
+
+    #missao {
+        flex-flow: column;
+        width: 800px;
+        height: 1000px;
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+
+    #missao *{
+        margin-left: 10px;
+    }
+
+    #missao div{
+        margin-top: 50px;
+    }
+
+    #missao p {
+        font-size: 17px;
+        margin-bottom: 50px;
+        width: 570px;
+        margin-left: -140px;
+    }
+
+    /* Quarta seção */
+    #equipe h1 {
+        font-size: 35px;
+        padding-top: 73px;
+        padding-bottom: 115px;
+    }
+    
+    #quatro {
+        height: 629.5px;
+        font-family: Inter;
+        margin-top: 300px;
+    }
+
+    #quatro p{
+        display: inline-block;
+    }
+    
+    #fotogrupo {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: -50px;
+    }
+    
+    #fotogrupo p{
+        width: 400px;
+    }
+    
+    #fotogrupo img {
+        width: 400px;
+        height: 250px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    /* Quinta seção */
+    #cinco {
+        height: 652px;
+        font-family: Inter;
+        font-size: 30px;
+    }
+    
+    #servicos {
+        text-align: center;
+        margin-bottom: 73px;
+    }
+    
+    #servcards {
+        flex-flow: column;
+        gap: 120px;
+    }
+    
+    #servcards div{
+        width: 254px;
+        height: 253px;
+        flex-flow: column;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+    
+    #servcards h1{
+        font-size: 20px;
+    }
+    
+    #servcards p{
+        font-size: 11px;
+        width: 200px;
+        height: 95px;
+        text-align: center;
+    }
+    
+    #servcards div:hover{
+        width: 274px;
+        height: 273px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+        h1{
+            font-size: 22px;
+        }
+        p{
+            width: 210px;
+            font-size: 11.5px;
+        }
+    }
+
+    /* Sexta seção */
+    #ods{
+        margin-top: 350px;
+        img{
+            width: 65%;
+        }
+        p{
+            width: 80%;
+        }
+    }
+
+    /* Rodapé */
+    #rodape {
+        height: 170px;
+        font-family: Archivo;
+        font-size: 17px;
+        margin-top: 300px;
+        height: 100%;
+    }
+    
+    #rodape h1{
+        margin-left: 33px;
+        padding-top: 20px;
+        margin-bottom: -20px;
+        font-size: 25px;
+    }
+    
+    #redes {
+        grid-template-columns: repeat(1, 1fr);
+        font-family: Inter;
+        margin-left: -240px;
+        margin-top: 100px;
+    }
+    
+    #redes container {
+        gap: 80px;
+        margin-right: 220px;
+    }
+    
+    #redes container2 {
+        margin-left: 55px;
+    }
+    
+    #redes a {
+        flex-flow: column;
+        margin-right: 13px;
+        font-size: 20px;
+        margin-top: -20px;
+        text-decoration: none;
+    }
+    
+    #redes i{
+        margin-right: -50px;
+    }
+
+    #numail {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        margin-left: -240px;
+    }
+
+    #numail #email {
+        margin-left: -80px;
+        margin-top: -20px;
+    }
+    
+    .cnpjright {
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 13px;
+        margin-left: 20px;
+        width: 95%;
+        padding-bottom: 15px;
+    }
+}
+
+
+
+@media (max-width: 700px){
+    /* Navbar */
+    .navbar {
+        font-size: 14px;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        margin-right: -20px;
+        margin-top: 10px;
+    }
+
+    .navbar button{
+        font-size: 12px;
+        width: 100px;
+        height: 25px;
+        margin-right: 30px;
+    }
+
+    #logolimpo {
+        width: 45px;
+        height: 45px;
+        margin-left: -15px;
+        margin-right: -40px;
+    }
+
+    .botoes{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .downdrop hr{
+        width: 100px;
+        margin-left: 15px;
+        transform: translateX(-35.5px);
+    }
+
+    .centerdrop {
+        margin-left: -5px;
+    }
+
+    .bluesect {
+        margin-left: -20px;
+    }
+
+    /* Terceira seção */
+    #curiosidades {
+        height: 800px;
+        margin-top: 100px;
+    }
+
+    #missao {
+        flex-flow: column;
+        width: 700px;
+        height: 1000px;
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+
+    #missao *{
+        margin-left: 10px;
+    }
+
+    #missao div{
+        margin-top: 50px;
+    }
+
+    #missao p {
+        font-size: 15px;
+        margin-bottom: 50px;
+        width: 380px;
+        margin-left: -40px;
+    }
+
+    /* Quarta seção */
+    #equipe h1 {
+        font-size: 35px;
+        padding-top: 73px;
+        padding-bottom: 115px;
+    }
+    
+    #quatro {
+        height: 629.5px;
+        font-family: Inter;
+        margin-top: 300px;
+    }
+
+    #quatro p{
+        display: inline-block;
+    }
+    
+    #fotogrupo {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: -50px;
+    }
+    
+    #fotogrupo p{
+        width: 400px;
+    }
+    
+    #fotogrupo img {
+        width: 400px;
+        height: 250px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    #fotogrupo2 {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: 100px;
+    }
+
+    #fotogrupo2 p{
+        width: 400px;
+    }
+    
+    #fotogrupo2 img {
+        width: 400px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    /* Quinta seção */
+    #cinco {
+        height: 652px;
+        font-family: Inter;
+        font-size: 30px;
+    }
+    
+    #servicos {
+        text-align: center;
+        margin-bottom: 73px;
+    }
+    
+    #servcards {
+        flex-flow: column;
+        gap: 120px;
+    }
+    
+    #servcards div{
+        width: 254px;
+        height: 253px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: column;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    #servcards h1{
+        font-size: 20px;
+    }
+    
+    #servcards p{
+        width: 200px;
+        height: 95px;
+        text-align: center;
+    }
+    
+    #servcards div:hover{
+        width: 274px;
+        height: 273px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+    
+    /* Sexta seção */
+    #ods{
+        margin-top: 350px;
+        img{
+            width: 65%;
+        }
+        p{
+            width: 75%;
+        }
+    }
+
+    /* Rodapé */
+    #rodape {
+        height: 170px;
+        font-family: Archivo;
+        font-size: 17px;
+        margin-top: 300px;
+        height: 100%;
+    }
+    
+    #rodape h1{
+        margin-left: 33px;
+        padding-top: 20px;
+        margin-bottom: -20px;
+        font-size: 25px;
+    }
+    
+    #redes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-family: Inter;
+        margin-left: -240px;
+        margin-top: 100px;
+    }
+    
+    #redes container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-right: 175px;
+    }
+    
+    #redes container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-left: -60px;
+    }
+    
+    #redes a {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-flow: column;
+        margin-right: 13px;
+        font-size: 20px;
+        margin-top: -20px;
+        text-decoration: none;
+    }
+    
+    #redes i{
+        margin-right: -50px;
+    }
+
+    #numail {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        margin-left: -240px;
+    }
+
+    #numail #email {
+        margin-left: -35px;
+        margin-top: -120px;
+    }
+    
+    .cnpjright {
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 13px;
+        margin-left: 20px;
+        width: 95%;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    /* Navbar */
+    .navbar {
+        font-size: 12px;
+    }
+
+    .navbar ul{
+        display: none;
+        gap: 10px;
+        margin-right: -20px;
+        margin-top: 10px;
+    }
+
+    .navbar button{
+        font-size: 14px;
+        width: 100px;
+        height: 30px;
+        margin-right: 30px;
+    }
+
+    #logolimpo {
+        width: 45px;
+        height: 45px;
+        margin-left: -15px;
+        margin-right: -45px;
+    }
+
+    .botoes{
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .downdrop hr{
+        width: 90px;
+        margin-left: 20px;
+        transform: translateX(-35.5px);
+    }
+
+    .centerdrop {
+        margin-left: -5px;
+    }
+
+    /* Primeira seção */
+    .bluesect {
+        margin-left: -40px;
+    }
+    .bluesect h1{
+        font-size: 120px;
+    }
+
+    /* Terceira seção */
+    #curiosidades {
+        height: 800px;
+        margin-top: 100px;
+    }
+
+    #missao {
+        flex-flow: column;
+        width: 600px;
+        height: 1100px;
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+
+    #missao *{
+        margin-left: 10px;
+    }
+
+    #missao div{
+        margin-top: 50px;
+    }
+
+    #missao p {
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+
+    /* Quarta seção */
+    #equipe h1 {
+        font-size: 35px;
+        padding-top: 73px;
+        padding-bottom: 115px;
+    }
+    
+    #quatro {
+        height: 629.5px;
+        font-family: Inter;
+        margin-top: 390px;
+    }
+
+    #quatro p{
+        display: inline-block;
+    }
+    
+    #fotogrupo {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: -50px;
+    }
+    
+    #fotogrupo p{
+        width: 400px;
+    }
+    
+    #fotogrupo img {
+        width: 400px;
+        height: 250px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    #fotogrupo2 {
+        flex-flow: column;
+        font-size: 17px;
+        gap: -580px;
+        margin-top: 100px;
+    }
+
+    #fotogrupo2 p{
+        width: 400px;
+    }
+    
+    #fotogrupo2 img {
+        width: 400px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    /* Quinta seção */
+    #cinco {
+        height: 652px;
+        font-family: Inter;
+        font-size: 30px;
+    }
+    
+    #servicos {
+        text-align: center;
+        margin-bottom: 73px;
+    }
+    
+    #servcards {
+        flex-flow: column;
+        gap: 120px;
+    }
+    
+    #servcards div{
+        width: 254px;
+        height: 253px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: column;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    #servcards h1{
+        font-size: 20px;
+    }
+    
+    #servcards p{
+        width: 200px;
+        height: 95px;
+        text-align: center;
+    }
+    
+    #servcards div:hover{
+        width: 274px;
+        height: 273px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+
+    /* Sexta seção */
+    #ods{
+        margin-top: 400px;
+        img{
+            width: 65%;
+        }
+        p{
+            text-align: center;
+            width: 70%;
+        }
+        a{
+            font-size: 18px;
+        }
+    }
+
+    /* Rodapé */
+    #rodape {
+        height: 170px;
+        font-family: Archivo;
+        font-size: 17px;
+        margin-top: 300px;
+        height: 100%;
+    }
+    
+    #rodape h1{
+        margin-left: 33px;
+        padding-top: 20px;
+        margin-bottom: -20px;
+        font-size: 25px;
+    }
+    
+    #redes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-family: Inter;
+        margin-left: -260px;
+        margin-top: 100px;
+    }
+    
+    #redes container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-right: 150px;
+    }
+    
+    #redes container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    
+    #redes a {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-flow: column;
+        margin-right: 13px;
+        font-size: 20px;
+        margin-top: -20px;
+        text-decoration: none;
+    }
+    
+    #redes i{
+        margin-right: -50px;
+    }
+
+    #numail {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        margin-right: -50px;
+    }
+
+    #numail #email {
+        margin-left: -30px;
+        margin-top: -140px;
+    }
+    
+    .cnpjright {
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 13px;
+        margin-left: 20px;
+        width: 95%;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 500px){
+    /* Navbar */
+    .navbar {
+        font-size: 11px;
+    }
+
+    .navbar ul{
+        display: none;
+        gap: 10px;
+        margin-right: -20px;
+        margin-top: 10px;
+    }
+
+    .navbar button{
+        font-size: 14px;
+        width: 100px;
+        height: 30px;
+        margin-right: 30px;
+    }
+
+    #logolimpo {
+        width: 45px;
+        height: 45px;
+        margin-left: -15px;
+        margin-right: -45px;
+    }
+
+    .botoes{
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centerdrop {
+        margin-left: -5px;
+    }
+
+    /* Primeira seção */
+    .bluesect {
+        margin-left: -60px;
+    }
+
+    .bluesect h1{
+        font-size: 110px;
+    }
+
+    /* Terceira seção */
+    #curiosidades {
+        height: 800px;
+    }
+
+    #missao {
+        flex-flow: column;
+        width: 500px;
+        height: 1000px;
+        padding-top: 100px;
+    }
+
+    #missao p {
+        font-size: 15px;
+        margin-bottom: 50px;
+        width: 340px;
+    }
+
+    #missao h1 {
+        width: 100%;
+    }
+
+    #missao img{
+        margin-right: 130px;
+    }
+    
+    /* Quarta seção */
+    #quatro {
+        margin-top: 300px;
+    }
+
+    #quatro p{
+        font-size: 15px;
+        width: 250px;
+        display: inline-block;
+    }
+    
+    #fotogrupo {
+        flex-flow: column;
+        margin-top: -50px;
+    }
+    
+    #fotogrupo p{
+        width: 300px;
+    }
+    
+    #fotogrupo img {
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    #fotogrupo2 {
+        flex-flow: column;
+        margin-top: -50px;
+    }
+    
+    #fotogrupo2 p{
+        width: 300px;
+    }
+    
+    #fotogrupo2 img {
+        width: 350px;
+        border-radius: 5px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    #servcards {
+        flex-flow: column;
+    }
+    
+    #servcards div{
+        width: 254px;
+        height: 253px;
+        flex-flow: column;
+    }
+    
+    #servcards h1{
+        font-size: 20px;
+    }
+    
+    #servcards p{
+        width: 200px;
+        height: 95px;
+    }
+    
+    #servcards div:hover{
+        width: 274px;
+        height: 273px;
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
+
+    /* Sexta seção */
+    #ods{
+        margin-top: 500px;
+        img {
+            width: 60%;
+        }
+        h1{
+            font-size: 35px;
+        }
+        p{
+            text-align: center;
+            width: 60%;
+            font-size: 17px;
+        }
+        a{
+            font-size: 18px;
+        }
+    }
+
+    /* Rodapé */
+    #rodape {
+        margin-top: 300px;
+        height: 100%;
+    }
+    
+    #rodape h1{
+        font-size: 25px;
+    }
+    
+    #redes {
+        grid-template-columns: repeat(1, 1fr);
+        font-family: Inter;
+        margin-left: -240px;
+        margin-top: 70px;
+    }
+    
+    #redes container {
+        gap: 20px;
+        margin-right: 150px;
+    }
+    
+    #redes container2 {
+        flex-flow: column;
+    }
+    
+    #redes a {
+        flex-flow: column;
+        margin-right: 13px;
+        margin-top: -20px;
+        text-decoration: none;
+    }
+    
+    #redes i{
+        margin-right: 0px;
+    }
+
+    #numail {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        margin-right: -50px;
+    }
+
+    #numail #email {
+        margin-left: -30px;
+        margin-top: -140px;
+    }
+    
+    .cnpjright {
+        margin-left: 21px;
+        margin-top: 15px;
+        font-size: 13px;
+        margin-left: 20px;
+        width: 95%;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    /* Primeira seção */
+    .bluesect h1{
+        font-size: 88px;
+    }
+    
+    .bluesect p{
+        font-size: 25px;
+    }
+}
+@media (max-width: 420px) {
+    /* Terceira seção */
+    #curiosidades {
+        margin-right: 50px;
+        p{
+            margin-left: -70px;
+        }
+        strong {
+            margin-left: -50px;
+        }
+    }
+}

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #f4f4f4; /* Cor de fundo leve */
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background-color: #5597FA;
+    height: 80px;
+}
+
+#logolimpo {
+    background-image: url(../../../Imagens/ImagensAreaRestrita/LogoOlimpo.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s ease;
+    margin-left: 20px;
+}
+
+#logolimpo:hover {
+    background-image: url(../../../Imagens/ImagensAreaRestrita/LogoOlimpo2.1.png);
+}
+
+/* Corpo principal */
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5597FA;
+    padding: 40px 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+form input {
+    border: none;
+    height: 40px;
+    width: 80%;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+form button {
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(85, 151, 250);
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #ffffff;
+    color: #5597FA;
+    border-color: #5597FA;
+}
+
+h1 {
+    color: #5597FA;
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Mensagem de resultado */
+
+.result {
+    color: white;
+    margin-top: 20px;
+}
+
+/* Imagens decorativas */
+
+img {
+    display: inline-block;
+    width: 300px;
+}
+
+#imgcasa {
+    width: 400px;
+    position: absolute;
+    bottom: 200px;
+    z-index: 1;
+}
+
+#imgPredios {
+    width: 400px;
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+    z-index: 1;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+    form input {
+        width: 70%;
+    }
+
+    #imgcasa, #imgPredios {
+        width: 250px;
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    form input {
+        width: 80%;
+    }
+}
+
+@media (max-width: 730px) {
+    #imgcasa, #imgPredios {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    form input {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    form input {
+        width: 95%;
+    }
+}
